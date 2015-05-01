@@ -1,14 +1,7 @@
 PingScan
 ========
 
-PROOF OF CONCEPT
-
 Fast concurent ping with JSON output. 
-
-TODO
-----
-
-- forcing v6
 
 Usage
 -----
@@ -26,3 +19,8 @@ can be fixed either running pingscan by root
 * or you can allow your user group to manipulate raw sockets with command: **sudo sysctl net.ipv4.ping_group_range="0   1000"** where "0   1000" is range of IDs of groups 
 
 * or you can set setuid bit to pingscan with: **sudo chown root:root pingscan && sudo chmod +s pingscan**
+
+TODO
+----
+
+- forcing v6
