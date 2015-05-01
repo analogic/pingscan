@@ -13,7 +13,7 @@ TODO
 Usage
 -----
 
-**pingscan google.com yahoo.com astalavista.com ...**
+**pingscan -timeout=5 google.com yahoo.com astalavista.com ...**
 
 Rights
 ------
