@@ -8,9 +8,7 @@ Fast concurent ping with JSON output.
 TODO
 ----
 
-- missing timeouts
 - forcing v6
-
 
 Usage
 -----
